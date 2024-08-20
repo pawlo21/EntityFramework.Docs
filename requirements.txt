@@ -1,3 +1,5 @@
 Sphinx==1.4.1
 sphinx-rtd-theme
 git+git://github.com/rtfd/sphinxcontrib-dotnetdomain
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
